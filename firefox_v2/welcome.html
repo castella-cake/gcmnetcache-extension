@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="welcome.css" />
+    <title>GCMNetCache のインストールに成功しました</title>
+</head>
+
+<body>
+    <div class="MainContainer">
+        <header class="title">GCMNetCache がインストールされました。</header>
+        <div>
+            拡張機能のインストールに成功しました。<br><br>
+            <a href="https://maimaidx.jp/" target="_blank">maimaiでらっくすNET</a>、
+            <a href="https://new.chunithm-net.com/" target="_blank">チュウニズムNET</a>、
+            <a href="https://ongeki-net.com/" target="_blank">オンゲキNET</a>にアクセスして、Ctrl+Shift+Rでハード再読み込みをすることをおすすめします。<br>
+
+            Android向けFirefoxの場合は、再読み込みボタンを長押しすることでハード読み込みできます。<br><br>
+            <span style="font-weight: bold;">重要: 古いコンテンツが表示されたり、表示が崩れたりしたときも、<br>まずはハード再読み込みを試してキャッシュをクリアしてください。</span>
+        </div>
+
+        <a href="https://github.com/castella-cake/niconico-peppermint-extension" target="_blank"
+            rel="noopener noreferrer" class="repolink">Github リポジトリ</a>
+        <div style="color: #888; margin-top: 32px">
+            Twitter(X)では、重要なアップデート情報をつぶやくことがあります<br>
+            Created by CYakigasi<br>
+            <div style="display:flex; margin-top: 8px"
+                class="snslink">
+                <a href="https://www.cyakigasi.net/links/" target="_blank" rel="noopener noreferrer">SNS Links(Misskey,Twitter)</a>
+                <a href="https://www.nicovideo.jp/user/92343354" target="_blank" rel="noopener noreferrer">Niconico</a>
+            </div>
+            <div style="display:flex;margin-top: 8px"
+                class="snslink">
+                <a href="https://github.com/sponsors/castella-cake" target="_blank" rel="noopener noreferrer">Github Sponsors</a>
+            </div>
+            <!-- CYakigasi Website Embed Code -->
+            <p style="margin: 8px">
+                <a href="https://www.cyakigasi.net" title="CYakigasi Website Banner" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="https://www.cyakigasi.net/wp-content/uploads/2023/05/cyaki_banner-jpn.png" width="200"
+                        height="40" alt="CYakigasi Website Banner Image" border=0>
+                </a>
+            </p>
+            <!-- End CYakigasi Website Embed Code -->
+        </div>
+    </div>
+</body>
+<style>
+:root {
+	--primary: #0060df;
+	--primary-hover: #0090ed;
+	--destructive: #c50042;
+	--destructive-hover: #e22850;
+	--destructive-dark: #810220;
+}
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    background-color: #00000002;
+    border-radius: 16px;
+    width: auto;
+    box-shadow: 0px 0px 6px #0002;
+    margin: auto 0;
+}
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+body {
+    font-family: "Lato","Yu Gothic UI","Meiryo UI",sans-serif;
+    background-color: Canvas;
+    color: CanvasText;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 0px;
+}
+body > * {
+	color-scheme: light dark;
+}
+.settinglink:hover {
+	color: #fff;
+	background: var(--primary-hover);
+}
+.settinglink {
+    font-weight: bold;
+    padding: 6px 10px;
+    font-size: 15px;
+    text-decoration: none;
+	color: #fff;
+	background: var(--primary);
+	box-shadow: 0px 0px 1px var(--primary-hover);
+	border-radius: 5px;
+	margin: 8px 0;
+	display: block;
+	text-align: center;
+	width: fit-content;
+	font-family: "SF Pro Text","Yu Gothic UI","Meiryo UI",sans-serif;
+}
+.repolink {
+    font-weight: bold;
+    padding: 6px 10px;
+    font-size: 15px;
+    text-decoration: none;
+	color: #000;
+	background: #ccc;
+	box-shadow: #afafaf;
+	border-radius: 5px;
+	margin: 8px 0;
+	display: block;
+	text-align: center;
+	width: fit-content;
+	font-family: "SF Pro Text","Yu Gothic UI","Meiryo UI",sans-serif;
+}
+.repolink:hover {
+	color: #000;
+	background: #bbb;
+}
+.snslink > a {
+	color: #666;
+	margin-right: 16px;
+}
+@media (prefers-color-scheme: dark) {
+	html,
+	body {
+		background-color: #1c1b22;
+		color: #fff;
+	}
+	.MainContainer {
+		background-color: #fff1;
+		box-shadow: 0px 0px 6px #fff2;
+	}
+}
+</style>
+</html>

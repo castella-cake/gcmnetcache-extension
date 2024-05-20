@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "GCMNetCache",
+    "short_name": "GCMNetCache",
+    "description": "チュウニズム/maimai/オンゲキのNETページの転送量を削減する試み。",
+    "version": "0.1.0",
+    "version_name": "0.1.0",
+    "developer": {
+        "name": "CYakigasi"
+    },
+
+    "homepage_url": "https://github.com/castella-cake/gcmnetcache-extension",
+
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "*://*.maimaidx.jp/*",
+        "*://*.chunithm-net.com/chuni-mobile/*",
+        "*://*.ongeki-net.com/ongeki-mobile/*"
+    ],
+    "permissions": [
+        "declarativeNetRequest"
+    ]
+}
