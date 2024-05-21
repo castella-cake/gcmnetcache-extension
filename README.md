@@ -2,7 +2,7 @@
 maimaiでらっくすNET/CHUNITHM-NET/オンゲキNETの画像とスタイルシートに対してキャッシュポリシーを再設定し、少しでも転送量や表示速度を改善する試み…の非公式拡張機能。    
 Manifest V3のChromium系ブラウザや、Android向けFirefoxでも動作します。
 
-Firefox: TBD    
+Firefox: https://addons.mozilla.org/ja/firefox/addon/gcmnetcache/ (審査待ち)    
 Chrome: TBD
 
 **この拡張機能は非公式であり、SEGAとは一切提携していません。自己責任で使用してください。**
@@ -24,6 +24,6 @@ GCMNetCacheは、maimaiNET/CHUNITHM-NET/オンゲキNETの画像/スタイルシ
 
 # 使い方
 1. インストールします
-2. おわり
+2. おわり    
 まだ開発段階なので設定画面もなにもないです。インストールしたらおわり。    
 何も効果がないように見える場合は、チュウニズムNET/maimaiNET/オンゲキNETに行ってCtrl+Shift+R(Android用Firefoxの場合はリロードを長押し)して、キャッシュを削除してください。    
